@@ -1,0 +1,12 @@
+{
+    "name": "guilhermecvm/pagarme-php",
+    "description": "A bridge to Pagar.me rest api",
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Guilhermecvm\\Pagarme\\": "src"
+        }
+    }
+}
