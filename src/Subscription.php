@@ -6,8 +6,8 @@ use GuzzleHttp\Client;
 
 class Subscription
 {
-    const ENDPOINT_CREATE = Pagarme::API + '/subscriptions';
-    const ENDPOINT_CANCEL = Pagarme::API + '/subscriptions/{id}/cancel';
+    const ENDPOINT_CREATE = Pagarme::API . '/subscriptions';
+    const ENDPOINT_CANCEL = Pagarme::API . '/subscriptions/{id}/cancel';
 
     public static function create($api_key, $plan_id, $card_hash, $customer_email)
     {
